@@ -1,17 +1,15 @@
-html{
+html {
 }
-
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 body {
   font-family: sans-serif;
   overflow-x: hidden;
-  }
+}
 ul {
   list-style: none;
 }
@@ -33,7 +31,6 @@ nav {
   display: flex;
 }
 
-
 .card-black {
   position: absolute;
   width: 100%;
@@ -51,11 +48,9 @@ nav {
   margin-right: 30px;
   transition-duration: 0.5s;
   font-size: 14px;
-
 }
 .navs a:hover {
   color: red;
-
 }
 
 .menu-bar i {
@@ -419,7 +414,6 @@ table {
   transition: 0.9s;
 }
 
-
 .card-icon-1 li {
   list-style: none;
   margin-top: 10px;
@@ -434,12 +428,11 @@ table {
 .training img {
   margin-top: 20px;
 }
-.training :nth-child(1){
+.training :nth-child(1) {
   /* margin-left: 20px; */
 }
-.training :nth-child(2){
+.training :nth-child(2) {
   margin-top: 10px;
-  
 }
 .training :nth-child(3) {
   font-size: 19px;
@@ -473,7 +466,6 @@ form {
 }
 .img-back-1 {
   position: relative;
-
 }
 .card-name {
   position: absolute;
@@ -494,7 +486,6 @@ input {
 
 .card-input {
   margin-left: 20px;
-
 }
 .card-map iframe {
   width: 700px;
@@ -508,7 +499,6 @@ textarea {
   margin-top: 20px;
 }
 
-
 .button-send {
   display: block;
   background-color: rgb(255, 31, 31);
@@ -521,12 +511,10 @@ textarea {
   background-color: rgb(230, 103, 103);
 }
 
-
 @media only screen and (max-width: 1200px) {
   .navs a {
     padding: 0 15px;
   }
-  
 }
 @media only screen and (max-width: 992px) {
   .navs-wrapper {
